@@ -28,7 +28,7 @@
       for (var index = 0; index < trs.length; index++) {
 
         tds_of_tr = trs[index].getElementsByTagName("td");
-        console.log(tds_of_tr);
+
         if (!findInTds(tds_of_tr, text)) {
           trs[index].style.display="none";
         } else {
